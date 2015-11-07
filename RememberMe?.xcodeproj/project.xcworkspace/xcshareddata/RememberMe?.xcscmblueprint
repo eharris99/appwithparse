@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AB2D0150DB5A02BA528FD6672BE3C428CAA12333",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9C5766FF19E6C460D2B667C4B5017DB721DEA6F0" : 0,
+    "AB2D0150DB5A02BA528FD6672BE3C428CAA12333" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7884460B-1BF6-4455-8654-1001D750804F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9C5766FF19E6C460D2B667C4B5017DB721DEA6F0" : "RememberMe10:30camera",
+    "AB2D0150DB5A02BA528FD6672BE3C428CAA12333" : "RememberMe11:2parseworks\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RememberMe?",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RememberMe?.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eharris99\/app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C5766FF19E6C460D2B667C4B5017DB721DEA6F0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eharris99\/appwithparse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB2D0150DB5A02BA528FD6672BE3C428CAA12333"
+    }
+  ]
+}

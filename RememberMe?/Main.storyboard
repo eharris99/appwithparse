@@ -372,6 +372,50 @@
             <point key="canvasLocation" x="7906" y="789"/>
         </scene>
         <!--Item-->
+        <scene sceneID="vok-lW-onH">
+            <objects>
+                <viewController id="ItT-cd-3YT" customClass="HomePageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LXx-dY-S26"/>
+                        <viewControllerLayoutGuide type="bottom" id="rNY-Ji-uSY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rLg-YU-1fJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abD-69-tjh">
+                                <rect key="frame" x="88" y="372" width="145" height="30"/>
+                                <state key="normal" title="Log in with Facebook"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkS-Go-U06">
+                                <rect key="frame" x="60" y="410" width="201" height="30"/>
+                                <state key="normal" title="Create an Account with Email"/>
+                            </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hahaha_statler_and_waldorf_muppets.gif" translatesAutoresizingMaskIntoConstraints="NO" id="6EJ-dx-IXf">
+                                <rect key="frame" x="39" y="38" width="261" height="175"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Memory Loss Is No Laughing Matter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pmj-ta-nWg">
+                                <rect key="frame" x="12" y="242" width="288" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Except When It Is)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcE-at-hjK">
+                                <rect key="frame" x="80" y="296" width="190" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" badgeValue="Home" id="lq9-fC-NA9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aro-Mu-axs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5201" y="202"/>
+        </scene>
+        <!--Item-->
         <scene sceneID="Tku-AK-W1d">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="uXO-tO-y0B" sceneMemberID="viewController">
@@ -383,8 +427,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BKj-Uv-g8M" kind="relationship" relationship="viewControllers" id="o8e-qY-CD0"/>
+                        <segue destination="ItT-cd-3YT" kind="relationship" relationship="viewControllers" id="GaN-Im-sog"/>
                         <segue destination="3OM-if-8tb" kind="relationship" relationship="viewControllers" id="U1m-Mh-dqY"/>
+                        <segue destination="BKj-Uv-g8M" kind="relationship" relationship="viewControllers" id="o8e-qY-CD0"/>
                         <segue destination="QpX-TC-zQ5" kind="relationship" relationship="viewControllers" id="guJ-eY-Ow9"/>
                         <segue destination="p2U-as-YjN" kind="relationship" relationship="viewControllers" id="Jbi-Iy-8MT"/>
                         <segue destination="OOm-6r-k2n" kind="relationship" relationship="viewControllers" id="9Jr-LJ-13b"/>
@@ -759,9 +804,27 @@
             </objects>
             <point key="canvasLocation" x="4065" y="1128"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Tsa-im-dz0">
+            <objects>
+                <viewController id="WN8-AV-KVn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YPN-ZI-cEf"/>
+                        <viewControllerLayoutGuide type="bottom" id="kOo-x3-QEP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8TI-o3-J4d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CJh-HR-Vbp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
         <image name="Kylie-Jenner-Hair" width="401" height="594"/>
+        <image name="hahaha_statler_and_waldorf_muppets.gif" width="349" height="199"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="23t-Fn-ixa"/>

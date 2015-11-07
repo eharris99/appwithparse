@@ -34,6 +34,9 @@
 		D22291331BADE0D100656293 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22291321BADE0D100656293 /* AboutViewController.m */; };
 		D22291361BADF13000656293 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = D22291351BADF13000656293 /* Question.m */; };
 		D22625291BE2F64E00F163BC /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22625281BE2F64E00F163BC /* CameraViewController.m */; };
+		D22B166F1BEE6EB500594B46 /* seniormoment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D22B166E1BEE6EB500594B46 /* seniormoment.jpg */; };
+		D22B16721BEE70A100594B46 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22B16711BEE70A100594B46 /* HomePageViewController.m */; };
+		D22B16741BEE7F3800594B46 /* hahaha_statler_and_waldorf_muppets.gif in Resources */ = {isa = PBXBuildFile; fileRef = D22B16731BEE7F3800594B46 /* hahaha_statler_and_waldorf_muppets.gif */; };
 		D243BAAA1BADB1F00036DFF9 /* PhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D243BAA91BADB1F00036DFF9 /* PhotosCollectionViewController.m */; };
 		D243BAAD1BADB3E50036DFF9 /* FamilyPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D243BAAC1BADB3E50036DFF9 /* FamilyPhotosCollectionViewCell.m */; };
 		D273410B1BBA1409003C0FCA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D273410A1BBA1409003C0FCA /* MapKit.framework */; };
@@ -100,6 +103,10 @@
 		D22291351BADF13000656293 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		D22625271BE2F64E00F163BC /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		D22625281BE2F64E00F163BC /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		D22B166E1BEE6EB500594B46 /* seniormoment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = seniormoment.jpg; path = ../../seniormoment.jpg; sourceTree = "<group>"; };
+		D22B16701BEE70A100594B46 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		D22B16711BEE70A100594B46 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		D22B16731BEE7F3800594B46 /* hahaha_statler_and_waldorf_muppets.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hahaha_statler_and_waldorf_muppets.gif; path = ../../hahaha_statler_and_waldorf_muppets.gif; sourceTree = "<group>"; };
 		D243BAA81BADB1F00036DFF9 /* PhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosCollectionViewController.h; sourceTree = "<group>"; };
 		D243BAA91BADB1F00036DFF9 /* PhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosCollectionViewController.m; sourceTree = "<group>"; };
 		D243BAAB1BADB3E50036DFF9 /* FamilyPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyPhotosCollectionViewCell.h; sourceTree = "<group>"; };
@@ -229,6 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				D2EAB7D31BAE02A0000AE9AD /* Main.storyboard */,
+				D22B16701BEE70A100594B46 /* HomePageViewController.h */,
+				D22B16711BEE70A100594B46 /* HomePageViewController.m */,
 				D2F4053A1BACDF1E00DE4181 /* AppDelegate.h */,
 				D2F4053B1BACDF1E00DE4181 /* AppDelegate.m */,
 				D22291311BADE0D100656293 /* AboutViewController.h */,
@@ -278,6 +287,8 @@
 			isa = PBXGroup;
 			children = (
 				D2EAB7D11BADFC5A000AE9AD /* alzheimers-large.jpg */,
+				D22B16731BEE7F3800594B46 /* hahaha_statler_and_waldorf_muppets.gif */,
+				D22B166E1BEE6EB500594B46 /* seniormoment.jpg */,
 				D222912F1BADE06600656293 /* about.html */,
 				D2F405371BACDF1E00DE4181 /* Info.plist */,
 				D2F405381BACDF1E00DE4181 /* main.m */,
@@ -389,9 +400,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22B16741BEE7F3800594B46 /* hahaha_statler_and_waldorf_muppets.gif in Resources */,
 				D22291301BADE06600656293 /* about.html in Resources */,
 				D29F3A811BB61FCF00A2B96E /* Main.storyboard in Resources */,
 				D2F405471BACDF1E00DE4181 /* LaunchScreen.xib in Resources */,
+				D22B166F1BEE6EB500594B46 /* seniormoment.jpg in Resources */,
 				D2F405441BACDF1E00DE4181 /* Images.xcassets in Resources */,
 				D2EAB7D21BADFC5A000AE9AD /* alzheimers-large.jpg in Resources */,
 			);
@@ -422,6 +435,7 @@
 				D29A73681BB869BA001C28F2 /* SKDetailViewController.m in Sources */,
 				D29F3A801BB6125500A2B96E /* AddQuestionViewController.m in Sources */,
 				D219F56E1BB5EF8D00C43CDB /* DetailViewController.m in Sources */,
+				D22B16721BEE70A100594B46 /* HomePageViewController.m in Sources */,
 				D29A73621BB84D4E001C28F2 /* SearchKardashiansTableViewController.m in Sources */,
 				D29A73651BB85EAD001C28F2 /* SearchKardashiansTableViewCell.m in Sources */,
 				D29A736E1BB898A3001C28F2 /* QuestionDetailViewController.m in Sources */,
